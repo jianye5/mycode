@@ -1,0 +1,6 @@
+---
+# do following task:
+- name: Echo something
+  shell: "echo 'This should be saved in {{ ansible_ssh_user }}'
+         >> /home/{{ansible_ssh_user}}/myfile.txt"
+

@@ -1,0 +1,8 @@
+---
+- name: user a fole from a task
+  hosts: localhost
+
+  tasks:
+  - name: include a task from a fole
+    import_role:
+      name: steve

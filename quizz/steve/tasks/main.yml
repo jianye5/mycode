@@ -1,0 +1,4 @@
+---
+- name: echo something
+  shell: "echo 'This shold be in {{ ansible_ssh_user }}' >> /home/{{ ansible_ssh_user }}/myfile.txt"
+
